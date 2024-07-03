@@ -1,0 +1,10 @@
+.{
+    .name = "linker-hell",
+    .version = "0.0.0",
+    .dependencies = .{
+        .dep = .{ .path = "dep" },
+    },
+    .paths = .{
+        "",
+    },
+}

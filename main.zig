@@ -1,5 +1,7 @@
-const cmake_dep = @import("dep");
+const dep = @cImport({
+    @cInclude("dep.h");
+});
 
 pub fn main() !void {
-    cmake_dep.greet("app");
+    dep.greet("app");
 }
